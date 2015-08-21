@@ -28,7 +28,7 @@ int main(void)
     int32_t pressure1, temperature;
     char debugString[1000]="";
 
-    ///PORT A
+    ///PORT A for debugging via UART
     //USART 1 and 2
     RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA, ENABLE);
     GPIO_PinAFConfig(GPIOA, GPIO_PinSource0, GPIO_AF_1);//CTS2

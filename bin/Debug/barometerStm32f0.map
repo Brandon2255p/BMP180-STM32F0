@@ -3868,7 +3868,7 @@ OUTPUT(bin\Debug\barometerStm32f0.elf elf32-littlearm)
  .debug_line    0x0000358c       0x99 obj\debug\src\startup_stm32f0xx.o
  .debug_line    0x00003625      0x510 obj\debug\src\system_stm32f0xx.o
 
-.debug_str      0x00000000    0x43480
+.debug_str      0x00000000    0x434aa
  .debug_str     0x00000000    0x3ef09 obj\debug\spl\src\stm32f0xx_gpio.o
                               0x3f0a1 (size before relaxing)
  .debug_str     0x0003ef09      0x540 obj\debug\spl\src\stm32f0xx_i2c.o
@@ -3883,9 +3883,9 @@ OUTPUT(bin\Debug\barometerStm32f0.elf elf32-littlearm)
                               0x3f1a7 (size before relaxing)
  .debug_str     0x00040678     0x2d5b obj\debug\src\bmp180.o
                               0x41e17 (size before relaxing)
- .debug_str     0x000433d3       0x35 obj\debug\src\main.o
-                              0x41d35 (size before relaxing)
- .debug_str     0x00043408       0x78 obj\debug\src\system_stm32f0xx.o
+ .debug_str     0x000433d3       0x5f obj\debug\src\main.o
+                              0x41d33 (size before relaxing)
+ .debug_str     0x00043432       0x78 obj\debug\src\system_stm32f0xx.o
                               0x3eea8 (size before relaxing)
 
 .debug_frame    0x00000000     0x1a2c
